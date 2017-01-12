@@ -64,8 +64,7 @@ client.on('connect', function () {
 					const payload = result[1];
 					const query_info = JSON.parse(payload.toString());
 
-					// const exchange_rate_info = yield exchange_rate_request.query(query_info);
-					const exchange_rate_info = yield Promise.reject(new Error('fake'));
+					const exchange_rate_info = yield exchange_rate_request.query(query_info);
 					debug('exchange_rate_info', exchange_rate_info);
 
 					no_of_success++;
