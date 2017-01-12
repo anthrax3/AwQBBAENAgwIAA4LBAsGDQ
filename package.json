@@ -1,0 +1,35 @@
+{
+  "name": "AwQBBAENAgwIAA4LBAsGDQ",
+  "version": "0.1.0",
+  "description": "backend-lv-3",
+  "license": "MIT",
+  "author": "Gilbert Wong",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "axios": "^0.15.3",
+    "bluebird": "^3.4.7",
+    "co": "^4.6.0",
+    "debug": "^2.6.0",
+    "fivebeans": "^1.5.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.19"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "devtool": "^2.3.0",
+    "eslint": "^3.12.2",
+    "eslint-config-aftership": "^3.2.1",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "doc": "jsdoc -r -R README.md -d dist/docs src",
+    "lint": "eslint --ext .jsx,.js .",
+    "seed": "node ./src/seed",
+    "test": "mocha ./test/**/*.test.js",
+    "worker": "node ./src/worker"
+  }
+}

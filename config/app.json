@@ -1,0 +1,27 @@
+{
+    "tube_name": "gilbertwyw",
+    "attempt": {
+        "succeed": 2,
+        "failed": 3
+    },
+    "delay": {
+      "succeed": 10,
+      "failed": 3
+    },
+    "beanstalkd": {
+        "host": "127.0.0.1",
+        "port": 11300
+    },
+    "mongodb": {
+        "uri": "mongodb://0.0.0.0:27017/test",
+        "collection_name": "exchange_rates"
+    },
+    "exchange_rate_api": {
+        "host": "http://www.apilayer.net",
+        "access_key": "50934592d125572407ad61d9421b4b26"
+    },
+    "seed": {
+        "to": "HKD",
+        "from": "USD"
+    }
+}

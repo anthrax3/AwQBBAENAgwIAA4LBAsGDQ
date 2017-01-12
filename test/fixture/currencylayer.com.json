@@ -1,0 +1,25 @@
+{
+  "raw_success": {
+    "success": true,
+    "terms": "https://currencylayer.com/terms",
+    "privacy": "https://currencylayer.com/privacy",
+    "timestamp": 1483915268,
+    "source": "USD",
+    "quotes": {
+      "USDHKD": 7.755198
+    }
+  },
+  "raw_failure": {
+    "success": false,
+    "error": {
+      "code": 104,
+      "info": "Your monthly usage limit has been reached. Please upgrade your subscription plan."    
+    }
+  },
+  "transformed": {
+    "timestamp": 1483915268,
+    "from": "USD",
+    "to": "HKD", 
+    "rate": "7.76"
+  }
+}
